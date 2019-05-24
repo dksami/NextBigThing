@@ -1,0 +1,1 @@
+{"version":2,"name":"NextBigThing","builds":[{"src":"package.json","use":"@now/next"}]}
