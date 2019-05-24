@@ -1,1 +1,3 @@
-{"version":2,"name":"NextBigThing","builds":[{"src":"package.json","use":"@now/next"}]}
+{"version":2,"name":"NextBigThing","builds":[{"src":"package.json","use": "@now/next@canary", "config": {
+    "maxLambdaSize": "10mb"
+  }}]}
