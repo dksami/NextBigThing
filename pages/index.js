@@ -10,13 +10,13 @@ export default class Index extends React.Component {
   constructor(props){
     super(props)
     var firebaseConfig = {
-      apiKey: "AIzaSyAue0Vxzk4yVKMMNnPJkGBgBQ_aWd9GZ5w",
-      authDomain: "portfolio-ad3c8.firebaseapp.com",
-      databaseURL: "https://portfolio-ad3c8.firebaseio.com",
-      projectId: "portfolio-ad3c8",
-      storageBucket: "portfolio-ad3c8.appspot.com",
-      messagingSenderId: "630392712127",
-      appId: "1:630392712127:web:65ae3805d24160ee"
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: ""
     };
     // Initialize Firebase
     if (!firebase.apps.length) {
